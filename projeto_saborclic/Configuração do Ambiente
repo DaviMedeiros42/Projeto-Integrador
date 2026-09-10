@@ -1,0 +1,10 @@
+O Backend do Projeto será desenvolvido no Debian 13.6, portanto aqui está como configurar primeiramente nesse Sistema Operacional
+1 - Se cria uma pasta chamada "projeto_saborclic" pelo terminal através do comando mkdir, ou se baixa a pasta disponivel neste repositório
+2 - Acessa a pasta pelo comando "cd projeto_saborclic"
+3 - Crie o ambiente virtual pelo comando "python -m venv venv" (O Python deve estar instalado no Sistema)
+4 - Ative o Sistema pelo comando "source venv/bin/activate"
+5 - Ao efetuar o comando anterior, o ambiente virtual estará ativado, agora é só baixar as bibliotecas que serão utilizadas no projeto, dando um "pip install Flask openpyxl"
+Pronto, agora o ambiente está configurado com todas as bibliotecas que iremos utilizar até o momento. O ambiente virtual garante que tudo que instalarmos dentro da nossa pasta "projeto_saborclic" ficará apenas nela,
+não afetando as demais pastas e projetos do Sistema operacional.
+------------------------------------------------------------------------
+Caso esteja usando o Windows, use o CMD e faça cada etapa até a terceira, na quarta você ativará com o comando "venv\Scripts\activate" e instalará as bibliotecas da mesma forma, "pip install Flask openpyxl".
