@@ -1,2 +1,0 @@
-Aqui nessa pasta ficará os arquivos .html, essenciais no desenvolvimento Flask no formato MPA (Multi Page Application), onde cada página irá renderizar um arquivo .html através do Flask, mais especificamente através
-do controller, que fará de fato o processo de criação de rotas.
