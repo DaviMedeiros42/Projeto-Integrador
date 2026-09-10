@@ -1,0 +1,2 @@
+Aqui nessa pasta ficará o arquivo .css que fará a formatação e estilização de nossa página, em um projeto Flask, tanto o static quanto templates funciona como o view do "MVC" sendo a parte que será apresentada e 
+comunicará com o Usuário.
