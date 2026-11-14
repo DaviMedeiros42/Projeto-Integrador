@@ -1,0 +1,193 @@
+/*  REFINO DOS CARDS E ELEMENTOS GRÁFICOS  */
+/* Cards do Sabores do Chef: textos alinhados, alturas consistentes e ações com o mesmo acabamento. */
+.home-page .market-food-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:24px;
+  align-items:stretch;
+}
+.home-page .market-food-card{
+  min-width:0;
+  min-height:100%;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  border:1px solid rgba(185,154,91,.42)!important;
+  border-radius:4px!important;
+  background:#FBF8F1!important;
+  box-shadow:0 12px 28px rgba(32,41,35,.09);
+}
+.home-page .market-food-card>img{
+  display:block;
+  width:100%;
+  height:218px;
+  flex:0 0 218px;
+  object-fit:cover;
+}
+.home-page .market-food-card>div{
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  align-items:flex-start;
+  padding:22px 23px 24px!important;
+  min-width:0;
+}
+.home-page .market-food-card .food-category{
+  display:inline-block;
+  max-width:100%;
+  color:#92733D;
+  font-size:9px;
+  line-height:1.5;
+  letter-spacing:1px;
+  overflow-wrap:anywhere;
+}
+.home-page .market-food-card h3{
+  width:100%;
+  min-height:2.45em;
+  margin:9px 0 8px!important;
+  color:#26342C!important;
+  font:500 21px/1.2 var(--display)!important;
+  overflow-wrap:anywhere;
+}
+.home-page .market-food-card p{
+  width:100%;
+  flex:1;
+  min-height:76px!important;
+  margin:0 0 17px!important;
+  color:#606B60!important;
+  font-size:12px!important;
+  line-height:1.7!important;
+  overflow-wrap:anywhere;
+}
+.home-page .market-food-card .chef-card-button{
+  display:inline-flex!important;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  min-height:42px;
+  margin-top:auto!important;
+  padding:0 16px;
+  border:1px solid #35483B;
+  border-radius:3px;
+  background:#35483B!important;
+  color:#F2EBDD!important;
+  font:700 9px/1 var(--font)!important;
+  letter-spacing:.65px;
+  text-decoration:none;
+  text-transform:uppercase;
+  transition:background .2s,border-color .2s,transform .2s;
+}
+.home-page .market-food-card .chef-card-button:hover{
+  background:#202923!important;
+  border-color:#B99A5B;
+  transform:translateY(-2px);
+}
+/* Tema escuro: cards continuam destacados e ações em dourado para não apagar. */
+body.home-page[data-theme="dark"] .market-food-card{
+  background:#2B382F!important;
+  border-color:rgba(217,185,120,.58)!important;
+  box-shadow:0 14px 32px rgba(0,0,0,.24),inset 0 0 0 1px rgba(217,185,120,.05);
+}
+body.home-page[data-theme="dark"] .market-food-card h3{color:#F2EBDD!important}
+body.home-page[data-theme="dark"] .market-food-card p{color:#D0D2C5!important}
+body.home-page[data-theme="dark"] .market-food-card .food-category{color:#D9B978!important}
+body.home-page[data-theme="dark"] .market-food-card .chef-card-button{
+  background:#B99A5B!important;
+  border-color:#D9B978!important;
+  color:#202923!important;
+}
+body.home-page[data-theme="dark"] .market-food-card .chef-card-button:hover{
+  background:#D9B978!important;
+  color:#202923!important;
+}
+/* Cartão de destaque interno: creme no claro, verde-carvão no escuro; texto sem cortes. */
+.app-content .customer-banner{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) minmax(210px,36%)!important;
+  gap:24px!important;
+  align-items:center!important;
+  min-height:230px!important;
+  padding:28px 30px!important;
+  overflow:hidden!important;
+  border:1px solid rgba(185,154,91,.58)!important;
+  border-radius:4px!important;
+  background:#FBF8F1!important;
+  color:#202923!important;
+  box-shadow:0 12px 30px rgba(32,41,35,.08)!important;
+}
+.app-content .customer-banner>div{min-width:0;max-width:100%}
+.app-content .customer-banner h3{max-width:520px;color:#202923!important;line-height:1.18!important;overflow-wrap:anywhere}
+.app-content .customer-banner p{max-width:440px;color:#667168!important;line-height:1.75!important;overflow-wrap:anywhere}
+.app-content .customer-banner>img{
+  display:block;
+  width:100%!important;
+  min-width:0;
+  height:185px!important;
+  object-fit:cover;
+  border-radius:3px!important;
+  transform:none!important;
+}
+body[data-theme="dark"]:not(.home-page) .app-content .customer-banner{
+  background:#2B382F!important;
+  border-color:rgba(217,185,120,.58)!important;
+  color:#F2EBDD!important;
+}
+body[data-theme="dark"]:not(.home-page) .app-content .customer-banner h3{color:#F2EBDD!important}
+body[data-theme="dark"]:not(.home-page) .app-content .customer-banner p{color:#D0D2C5!important}
+body[data-theme="dark"]:not(.home-page) .app-content .customer-banner .button{background:#B99A5B!important;color:#202923!important}
+/* Mais grafismos de marca: arcos, pontos e linhas decorativas com presença controlada nos dois temas. */
+.home-page .market-section,.home-page .rental-section,.home-page .access-section,
+.app-main{position:relative;isolation:isolate}
+.home-page .market-section:before{
+  content:"";position:absolute;z-index:-1;top:68px;right:-34px;width:170px;height:170px;
+  border:2px solid rgba(185,154,91,.38);border-radius:50%;
+  box-shadow:0 0 0 13px rgba(185,154,91,.10),0 0 0 27px rgba(185,154,91,.065);
+  pointer-events:none;
+}
+.home-page .market-section:after{
+  content:"";position:absolute;z-index:-1;left:-26px;bottom:34px;width:120px;height:120px;
+  background:radial-gradient(circle,rgba(185,154,91,.50) 1.5px,transparent 2px);
+  background-size:13px 13px;opacity:.62;pointer-events:none;
+}
+.home-page .rental-section:before{
+  content:"";position:absolute;z-index:0;left:-78px;top:18%;width:210px;height:210px;
+  border:2px solid rgba(185,154,91,.30);border-radius:50%;
+  box-shadow:0 0 0 12px rgba(185,154,91,.09),0 0 0 25px rgba(185,154,91,.055);
+  pointer-events:none;
+}
+.home-page .access-section:before{
+  content:"";position:absolute;z-index:-1;right:2%;top:10px;width:115px;height:115px;
+  border:2px solid rgba(185,154,91,.34);border-radius:50%;
+  box-shadow:0 0 0 10px rgba(185,154,91,.10),0 0 0 22px rgba(185,154,91,.06);
+  pointer-events:none;
+}
+.home-page .market-toolbar{position:relative}
+.home-page .market-toolbar:after{
+  content:"✳";position:absolute;right:0;top:-28px;color:rgba(185,154,91,.72);
+  font:400 34px/1 Georgia,serif;pointer-events:none;
+}
+.app-main:after{
+  content:"";position:absolute;z-index:-1;right:3%;bottom:5%;width:140px;height:140px;
+  border:2px solid rgba(185,154,91,.22);border-radius:50%;
+  box-shadow:0 0 0 12px rgba(185,154,91,.075),0 0 0 25px rgba(185,154,91,.045);
+  pointer-events:none;
+}
+body.home-page[data-theme="dark"] .market-section:before,
+body.home-page[data-theme="dark"] .access-section:before{border-color:rgba(217,185,120,.55);box-shadow:0 0 0 13px rgba(217,185,120,.14),0 0 0 27px rgba(217,185,120,.09)}
+body.home-page[data-theme="dark"] .market-section:after{background-image:radial-gradient(circle,rgba(217,185,120,.72) 1.5px,transparent 2px);opacity:.7}
+body.home-page[data-theme="dark"] .rental-section:before{border-color:rgba(217,185,120,.48);box-shadow:0 0 0 12px rgba(217,185,120,.12),0 0 0 25px rgba(217,185,120,.075)}
+body.home-page[data-theme="dark"] .market-toolbar:after{color:rgba(217,185,120,.86)}
+body[data-theme="dark"]:not(.home-page) .app-main:after{border-color:rgba(217,185,120,.34);box-shadow:0 0 0 12px rgba(217,185,120,.10),0 0 0 25px rgba(217,185,120,.065)}
+@media(max-width:900px){
+  .home-page .market-food-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .app-content .customer-banner{grid-template-columns:minmax(0,1fr) minmax(160px,34%)!important}
+}
+@media(max-width:620px){
+  .home-page .market-food-grid{grid-template-columns:1fr}
+  .home-page .market-food-card>img{height:210px;flex-basis:210px}
+  .home-page .market-food-card h3{min-height:0}
+  .home-page .market-food-card p{min-height:0!important}
+  .app-content .customer-banner{grid-template-columns:1fr!important;padding:22px!important}
+  .app-content .customer-banner>img{height:165px!important}
+  .home-page .market-section:before,.home-page .rental-section:before,.home-page .access-section:before{opacity:.55}
+}

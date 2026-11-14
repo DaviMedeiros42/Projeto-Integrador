@@ -1,0 +1,298 @@
+
+.app-nav .nav-icon svg{width:20px;height:20px;display:block;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+.app-nav .nav-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 20px}
+.app-nav .nav-image-icon{width:24px;height:24px;flex-basis:24px;overflow:hidden;border-radius:5px}
+.app-nav .nav-image-icon img{width:100%;height:100%;object-fit:cover;display:block}
+.profile-icon svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+
+
+.refined-app-page .app-content .section-heading{align-items:flex-end;gap:24px;margin:0 0 24px;padding:0 0 17px;border-bottom:1px solid #e5e0d3}
+.refined-app-page .app-content .section-heading h2{font-family:'Playfair Display',Georgia,serif;font-weight:600;letter-spacing:-.45px;color:#26382e}
+.refined-app-page .app-content .section-heading h2 em{color:#a8793d}
+.refined-app-page .app-content .panel,
+.refined-app-page .app-content .stat-card,
+.refined-app-page .app-content .restaurant-card,
+.refined-app-page .app-content .equipment-card,
+.refined-app-page .app-content .review-card,
+.refined-app-page .app-content .kds-toolbar{background:#fffdf8;border:1px solid #e7e0d1;border-radius:7px;box-shadow:0 7px 22px rgba(49,54,42,.045)}
+.refined-app-page .app-content .panel{padding:24px}
+.refined-app-page .app-content .stat-card{padding:19px 21px;border-top:3px solid #b58a4b}
+.refined-app-page .app-content .stat-card strong{color:#245b43}
+.refined-app-page .app-content .table-panel{padding:22px 0;overflow:hidden}
+.refined-app-page .app-content .table-panel>.panel-title{padding:0 22px}
+.refined-app-page .app-content th{background:#f3f0e7;color:#76694f}
+.refined-app-page .app-content td{padding-top:15px;padding-bottom:15px}
+.refined-app-page .app-content .form-panel,
+.refined-app-page .app-content .summary-panel{background:#fffdf8;border:1px solid #e7e0d1;border-radius:7px}
+.refined-app-page .app-content .button-primary,
+.refined-app-page .app-content .button-dark,
+.refined-app-page .app-content button.button{background:#245b43;color:#fff;border:1px solid #245b43;border-radius:4px;text-decoration:none}
+.refined-app-page .app-content .button-outline{background:#fffdf8;color:#245b43;border:1px solid #b58a4b;border-radius:4px}
+.refined-app-page .app-content input,.refined-app-page .app-content textarea,.refined-app-page .app-content select{border-radius:4px;border-color:#dcd7c9;background:#fff}
+.refined-app-page .app-content .rental-card,.refined-app-page .app-content .food-card{border-radius:6px;overflow:hidden;border:1px solid #e7e0d1;box-shadow:0 7px 22px rgba(49,54,42,.045)}
+.refined-app-page .app-content .rental-content{padding:22px}
+.refined-app-page .app-content .kds-column{border-radius:6px;background:#f0eee6;border:1px solid #e3ddcf}
+.refined-app-page .app-content .kds-card{border-radius:5px;border-color:#e7e0d1}
+.refined-app-page .app-content .equipment-icon,.refined-app-page .app-content .restaurant-logo{border-radius:5px}
+.refined-app-page .app-content .status{border-radius:4px}
+.refined-app-page .app-topline h1{font-family:'Playfair Display',Georgia,serif;font-weight:600;letter-spacing:-.5px}
+
+
+.home-page .hero{grid-template-columns:.9fr 1.1fr;gap:5%;min-height:640px}
+.home-page .hero-visual{padding:8px 5px 34px 20px;min-height:550px}
+.home-page .hero-image,.home-page .hero-image-featured{height:530px;max-width:100%;border-radius:10px 110px 10px 10px;overflow:hidden;box-shadow:0 22px 55px rgba(39,49,39,.16);position:relative}
+.home-page .hero-image img{width:100%;height:100%;object-fit:cover;object-position:center 48%;transform:scale(1.015)}
+.home-page .hero-image:after{content:"";position:absolute;inset:14px;border:1px solid rgba(255,255,255,.5);pointer-events:none;border-radius:3px 94px 3px 3px}
+.home-page .hero-sticker{left:-2px;bottom:3px;background:#b58a4b;color:#fff}
+.home-page .hero-visual:before{content:"";position:absolute;width:145px;height:145px;border:1px solid #b58a4b;border-radius:50%;right:-28px;top:-22px;opacity:.65}
+.home-page .hero-visual:after{content:"";position:absolute;width:75px;height:75px;background:rgba(181,138,75,.12);border-radius:50%;left:-18px;top:45%;z-index:0}
+.home-page .market-section{padding-top:92px;padding-bottom:112px;position:relative}
+.home-page .market-section:before{content:"";position:absolute;left:0;top:45px;width:95px;height:210px;border:1px solid rgba(181,138,75,.38);border-left:0;border-radius:0 120px 120px 0;pointer-events:none}
+.home-page .market-food-grid{gap:26px}
+.home-page .market-food-card{border-radius:7px;display:flex;flex-direction:column;min-height:100%;}
+.home-page .market-food-card>img{height:285px;object-fit:cover}
+.home-page .market-food-card>div{padding:28px 27px 30px;display:flex;flex-direction:column;flex:1}
+.home-page .market-food-card p{min-height:72px}
+.home-page .market-food-card a{margin-top:auto;padding-top:17px}
+.home-page .button-light,.home-page .button-outline{background:#245b43;color:#fff;border:1px solid #245b43;border-radius:4px}
+.home-page .button-light:hover,.home-page .button-outline:hover{background:#173e2e;color:#fff}
+.home-page .hero-actions .button{min-height:48px;padding:13px 21px}
+.home-page .profile-card .profile-icon{background:transparent;border:1px solid currentColor;border-radius:5px}
+.home-page .brand-lockup{gap:15px;min-width:290px}
+.home-page .brand-symbol{width:66px;height:66px;flex-basis:66px}
+.home-page .brand-wordmark .brand-line{font-size:27px;line-height:.96;font-weight:600}
+.home-page .brand-wordmark .brand-amp{font-family:Georgia,serif;font-style:italic;font-weight:400;display:inline-block;transform:none;font-size:1.06em}
+.home-page .brand-wordmark .brand-tagline{font-size:8px;letter-spacing:1.15px;margin-top:8px}
+.home-page .site-footer.professional-footer{display:grid;grid-template-columns:1.5fr 1fr 1.2fr 1.5fr;gap:32px 44px;padding:52px max(5vw,32px) 22px;background:#173e2e;color:#f4efe3;border-top:4px solid #b58a4b}
+.home-page .professional-footer .footer-brand{max-width:270px}
+.home-page .professional-footer .footer-logo{font:600 27px 'Playfair Display',Georgia,serif;color:#fff;display:block}
+.home-page .professional-footer .footer-logo i{font-family:Georgia,serif;color:#d6b477;font-weight:400}
+.home-page .professional-footer p{font-size:13px;margin:7px 0 3px;color:#f0e8d8}
+.home-page .professional-footer .footer-brand small{font-size:10px;color:#c9c0aa;letter-spacing:.3px}
+.home-page .professional-footer .footer-column{display:flex;flex-direction:column;align-items:flex-start;gap:9px;font-size:12px;color:#e0e4d9}
+.home-page .professional-footer .footer-column strong{font:600 14px 'Playfair Display',Georgia,serif;color:#e0bd7c;margin-bottom:4px}
+.home-page .professional-footer .footer-column a:hover{color:#e0bd7c;text-decoration:underline;text-underline-offset:3px}
+.home-page .professional-footer .footer-bottom{grid-column:1/-1;border-top:1px solid rgba(238,228,204,.22);padding-top:17px;margin-top:8px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#c9c0aa;font-size:10px}
+@media(max-width:900px){.home-page .hero{grid-template-columns:1fr 1fr}.home-page .hero-image{height:430px}.home-page .professional-footer{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:650px){.home-page .hero{grid-template-columns:1fr}.home-page .hero-visual{min-height:360px}.home-page .hero-image{height:350px}.home-page .brand-lockup{min-width:0}.home-page .brand-symbol{width:52px;height:52px;flex-basis:52px}.home-page .brand-wordmark .brand-line{font-size:22px}.home-page .professional-footer{grid-template-columns:1fr!important;padding:38px 24px 20px!important}.home-page .professional-footer .footer-bottom{grid-column:auto;flex-direction:column}.home-page .market-food-card>img{height:220px}}
+
+
+/* CAMADA EXTRA DE ELEMENTOS GRÁFICOS  */
+:root{
+  --ornament-gold:#b58a4b;
+  --ornament-gold-light:#d9c49b;
+  --ornament-sage:#dfe8dc;
+}
+.home-page .hero,
+.home-page .market-section,
+.home-page .rental-section,
+.home-page .access-section{position:relative;isolation:isolate}
+.home-page .hero-copy{position:relative;z-index:2}
+.home-page .hero-visual{z-index:1}
+.home-page .hero-visual:before{
+  width:178px;height:178px;right:-42px;top:-32px;
+  border:1px solid rgba(181,138,75,.7);
+  box-shadow:0 0 0 12px rgba(181,138,75,.055),0 0 0 25px rgba(181,138,75,.035);
+}
+.home-page .hero-visual:after{
+  width:92px;height:92px;left:-24px;top:47%;
+  background:rgba(181,138,75,.13);
+  box-shadow:0 0 0 12px rgba(181,138,75,.045);
+}
+.home-page .hero-image{z-index:1}
+.home-page .hero-image:before{
+  content:"";position:absolute;z-index:2;right:22px;bottom:22px;
+  width:54px;height:54px;border:1px solid rgba(255,255,255,.72);
+  border-radius:50%;pointer-events:none;
+}
+.home-page .hero-sticker{z-index:3;box-shadow:0 9px 24px rgba(80,54,24,.18)}
+.home-page .market-section:after{
+  content:"";position:absolute;right:2.5%;top:20px;width:118px;height:118px;
+  border:1px solid rgba(181,138,75,.28);border-radius:50%;
+  box-shadow:0 0 0 13px rgba(181,138,75,.035),0 0 0 27px rgba(181,138,75,.025);
+  pointer-events:none;z-index:-1;
+}
+.home-page .market-kicker:before{
+  content:"";display:inline-block;width:26px;height:1px;
+  margin:0 9px 3px 0;background:var(--ornament-gold);
+}
+.home-page .market-food-card{position:relative}
+.home-page .market-food-card:after{
+  content:"";position:absolute;top:12px;right:12px;width:24px;height:24px;
+  border-top:1px solid rgba(255,255,255,.8);border-right:1px solid rgba(255,255,255,.8);
+  pointer-events:none;
+}
+.home-page .rental-section{overflow:hidden}
+.home-page .rental-section:before{
+  content:"";position:absolute;left:-68px;top:8%;width:190px;height:340px;
+  border:1px solid rgba(181,138,75,.24);border-left:0;
+  border-radius:0 180px 180px 0;pointer-events:none;
+}
+.home-page .access-section:after{
+  content:"";position:absolute;right:4%;bottom:25px;width:68px;height:68px;
+  border:1px solid rgba(181,138,75,.3);border-radius:50%;
+  box-shadow:0 0 0 9px rgba(181,138,75,.04);pointer-events:none;
+}
+.home-page .section-heading .eyebrow{position:relative}
+.home-page .section-heading .eyebrow:after{
+  content:"";display:inline-block;width:32px;height:1px;
+  background:var(--ornament-gold-light);margin-left:5px;
+}
+
+/* Painéis internos recebem ornamentos discretos nos fundos, sem alterar ícones. */
+.app-main{position:relative;isolation:isolate;overflow:hidden}
+.app-main:before{
+  content:"";position:absolute;z-index:-1;top:34px;right:-82px;
+  width:210px;height:210px;border:1px solid rgba(181,138,75,.2);
+  border-radius:50%;box-shadow:0 0 0 14px rgba(181,138,75,.025),0 0 0 29px rgba(181,138,75,.02);
+  pointer-events:none;
+}
+.app-main:after{
+  content:"";position:absolute;z-index:-1;left:-92px;bottom:9%;
+  width:160px;height:280px;border:1px solid rgba(181,138,75,.16);
+  border-left:0;border-radius:0 150px 150px 0;pointer-events:none;
+}
+.app-main .app-content{position:relative;z-index:1}
+.app-topline{position:relative}
+.app-topline:after{
+  content:"";display:block;width:54px;height:2px;margin-top:12px;
+  background:linear-gradient(90deg,var(--ornament-gold),rgba(181,138,75,0));
+}
+.app-content .panel,.app-content .stat-card,.app-content .food-card,
+.app-content .restaurant-card,.app-content .equipment-card,
+.app-content .review-card,.app-content .rental-card{position:relative}
+.app-content .panel-title:after{
+  content:"";display:block;width:28px;height:1px;margin-top:8px;
+  background:rgba(181,138,75,.55);
+}
+.app-content .section-heading:before{
+  content:"";position:absolute;left:-13px;top:0;width:3px;height:38px;
+  background:var(--ornament-gold);opacity:.7;
+}
+.app-content .section-heading{position:relative;padding-left:14px}
+.app-content .stat-card:after{
+  content:"";position:absolute;right:13px;top:13px;width:18px;height:18px;
+  border-top:1px solid rgba(181,138,75,.38);border-right:1px solid rgba(181,138,75,.38);
+  pointer-events:none;
+}
+.app-content .table-panel{position:relative}
+.app-content .table-panel:before{
+  content:"";position:absolute;top:0;left:0;width:64px;height:2px;
+  background:var(--ornament-gold);
+}
+@media(max-width:700px){
+  .home-page .market-section:after,.home-page .access-section:after,
+  .app-main:before,.app-main:after{opacity:.45}
+  .home-page .hero-visual:before{width:115px;height:115px;right:-14px}
+}
+@media(prefers-reduced-motion:no-preference){
+  .home-page .hero-sticker{animation:ornament-float 5s ease-in-out infinite}
+  @keyframes ornament-float{0%,100%{transform:rotate(-12deg) translateY(0)}50%{transform:rotate(-9deg) translateY(-5px)}}
+}
+
+/* ===== AJUSTES DE TEMA, ASSINATURA E ELEMENTOS GRÁFICOS ===== */
+:root{
+  --brand-cream:#F2EBDD;
+  --brand-paper:#FBF8F0;
+  --brand-dark:#202923;
+  --brand-gold:#B99A5B;
+  --brand-gold-bright:#D9B978;
+  --ornament-opacity:.72;
+}
+/* Todas as áreas internas mantêm o fundo creme institucional no tema claro. */
+.app-shell,.app-main{background:var(--brand-cream)!important;color:var(--brand-dark)}
+.app-content .panel,.app-content .stat-card,.app-content .food-card,
+.app-content .side-menu,.app-content .kds-toolbar,.app-content .kds-card,
+.app-content .customer-banner,.app-content .favorite-strip,.app-content .review-card,
+.app-content .equipment-card,.app-content .rental-card{background:var(--brand-paper)}
+/* A mesma assinatura tipográfica da marca principal é aplicada em todas as áreas. */
+.app-logo-type{font-family:'Playfair Display',Georgia,serif!important;font-weight:600!important;letter-spacing:-.35px!important}
+.app-logo-type span{font-family:'Playfair Display',Georgia,serif!important;font-weight:600!important}
+.app-logo-type i{font-family:Georgia,serif!important;font-style:italic!important;font-weight:400!important;font-size:1.08em;display:inline-block;transform:none!important;color:var(--brand-gold-bright)!important}
+.app-logo-type small{font-family:'Montserrat',Arial,sans-serif!important;letter-spacing:1px!important;font-size:7px!important}
+/* Botão de tema disponível nas páginas internas. */
+.app-theme-toggle{display:inline-flex;align-items:center;gap:8px;border:1px solid #CFC5AD;background:#FBF8F0;color:#35483B;border-radius:999px;padding:9px 13px;font:700 10px 'Montserrat',Arial,sans-serif;cursor:pointer;white-space:nowrap;transition:background .2s,border-color .2s,color .2s}
+.app-theme-toggle span:first-child{font-size:15px;line-height:1}
+.app-theme-toggle:hover{border-color:var(--brand-gold);transform:translateY(-1px)}
+.app-topline{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.app-topline>div{flex:1;min-width:180px}
+/* Elementos gráficos extras, com contraste controlado e sem competir com o conteúdo. */
+.home-page .hero-copy:before{content:"";position:absolute;left:-42px;top:-28px;width:74px;height:74px;border-radius:50%;background:radial-gradient(circle,rgba(185,154,91,.20) 0 2px,transparent 3px);background-size:12px 12px;opacity:.75;pointer-events:none}
+.home-page .rental-card{position:relative;isolation:isolate}
+.home-page .rental-card:before{content:"";position:absolute;z-index:1;top:13px;left:13px;width:36px;height:36px;border-top:1px solid rgba(185,154,91,.85);border-left:1px solid rgba(185,154,91,.85);pointer-events:none}
+.home-page .access-section .profile-card{position:relative;overflow:hidden}
+.home-page .access-section .profile-card:after{content:"";position:absolute;right:-29px;bottom:-39px;width:100px;height:100px;border:1px solid rgba(185,154,91,.24);border-radius:50%;box-shadow:0 0 0 9px rgba(185,154,91,.045),0 0 0 19px rgba(185,154,91,.025);pointer-events:none}
+.app-main .app-content:before{content:"";position:absolute;z-index:-1;right:8%;top:18px;width:84px;height:84px;border:1px solid rgba(185,154,91,.18);border-radius:50%;box-shadow:0 0 0 9px rgba(185,154,91,.035),0 0 0 18px rgba(185,154,91,.02);pointer-events:none}
+.app-content .panel:before,.app-content .food-card:before{content:"";position:absolute;right:12px;top:12px;width:19px;height:19px;border-top:1px solid rgba(185,154,91,.45);border-right:1px solid rgba(185,154,91,.45);pointer-events:none}
+/* No tema escuro, botões e ícones de Explorar ficam dourados para manter leitura. */
+body.home-page[data-theme="dark"] .market-food-card a,
+body.home-page[data-theme="dark"] .market-food-card .button,
+body.home-page[data-theme="dark"] .hero-actions .button-primary,
+body.home-page[data-theme="dark"] .rental-content .button-primary{background:#B99A5B!important;color:#202923!important;border-color:#B99A5B!important}
+body.home-page[data-theme="dark"] .market-food-card a:hover,
+body.home-page[data-theme="dark"] .market-food-card .button:hover,
+body.home-page[data-theme="dark"] .hero-actions .button-primary:hover{background:#D9B978!important;color:#202923!important}
+body.home-page[data-theme="dark"] .profile-icon,
+body.home-page[data-theme="dark"] .profile-icon.peach,
+body.home-page[data-theme="dark"] .profile-icon.green,
+body.home-page[data-theme="dark"] .profile-icon.yellow,
+body.home-page[data-theme="dark"] .profile-icon.lilac{color:#D9B978!important;border-color:#B99A5B!important;background:rgba(185,154,91,.12)!important}
+body.home-page[data-theme="dark"] .profile-icon svg{stroke:#D9B978!important}
+body.home-page[data-theme="dark"] .profile-link{color:#D9B978!important}
+body.home-page[data-theme="dark"] .hero-actions .button-outline{border-color:#B99A5B!important;color:#D9B978!important}
+/* Tema escuro compartilhado em todas as páginas internas. */
+body[data-theme="dark"]:not(.home-page),
+body[data-theme="dark"]:not(.home-page) .app-shell,
+body[data-theme="dark"]:not(.home-page) .app-main{background:#202923!important;color:#F2EBDD!important;color-scheme:dark}
+body[data-theme="dark"]:not(.home-page) .app-main{background-image:radial-gradient(ellipse at 96% 4%,rgba(185,154,91,.10),transparent 25%),radial-gradient(ellipse at 0% 90%,rgba(185,154,91,.07),transparent 24%)!important}
+body[data-theme="dark"]:not(.home-page) .app-topline{border-color:#485448}
+body[data-theme="dark"]:not(.home-page) .app-topline h1,
+body[data-theme="dark"]:not(.home-page) .app-content .section-heading h2,
+body[data-theme="dark"]:not(.home-page) .app-content .panel h3,
+body[data-theme="dark"]:not(.home-page) .app-content .panel h4,
+body[data-theme="dark"]:not(.home-page) .app-content .food-card h4,
+body[data-theme="dark"]:not(.home-page) .app-content .stat-card strong,
+body[data-theme="dark"]:not(.home-page) .app-content .customer-banner h3{color:#F2EBDD!important}
+body[data-theme="dark"]:not(.home-page) .app-topline p,
+body[data-theme="dark"]:not(.home-page) .app-content .section-heading>p,
+body[data-theme="dark"]:not(.home-page) .app-content .panel p,
+body[data-theme="dark"]:not(.home-page) .app-content .panel small,
+body[data-theme="dark"]:not(.home-page) .app-content .food-card p,
+body[data-theme="dark"]:not(.home-page) .app-content .muted{color:#C4C7B8!important}
+body[data-theme="dark"]:not(.home-page) .app-content .panel,
+body[data-theme="dark"]:not(.home-page) .app-content .stat-card,
+body[data-theme="dark"]:not(.home-page) .app-content .food-card,
+body[data-theme="dark"]:not(.home-page) .app-content .side-menu,
+body[data-theme="dark"]:not(.home-page) .app-content .kds-toolbar,
+body[data-theme="dark"]:not(.home-page) .app-content .kds-card,
+body[data-theme="dark"]:not(.home-page) .app-content .customer-banner,
+body[data-theme="dark"]:not(.home-page) .app-content .favorite-strip,
+body[data-theme="dark"]:not(.home-page) .app-content .review-card,
+body[data-theme="dark"]:not(.home-page) .app-content .equipment-card,
+body[data-theme="dark"]:not(.home-page) .app-user{background:#2B382F!important;color:#F2EBDD!important;border-color:#485448!important}
+body[data-theme="dark"]:not(.home-page) .app-content input,
+body[data-theme="dark"]:not(.home-page) .app-content textarea,
+body[data-theme="dark"]:not(.home-page) .app-content select{background:#202923!important;color:#F2EBDD!important;border-color:#596657!important}
+body[data-theme="dark"]:not(.home-page) .app-content input::placeholder,
+body[data-theme="dark"]:not(.home-page) .app-content textarea::placeholder{color:#AEB6A8!important}
+body[data-theme="dark"]:not(.home-page) .app-content .button-primary,
+body[data-theme="dark"]:not(.home-page) .app-content .button-dark,
+body[data-theme="dark"]:not(.home-page) .app-content .add-button{background:#B99A5B!important;color:#202923!important;border-color:#B99A5B!important}
+body[data-theme="dark"]:not(.home-page) .app-content .text-link,
+body[data-theme="dark"]:not(.home-page) .app-content .profile-link,
+body[data-theme="dark"]:not(.home-page) .back-home{color:#D9B978!important}
+body[data-theme="dark"]:not(.home-page) .app-content .table-panel td,
+body[data-theme="dark"]:not(.home-page) .app-content .table-panel td:first-child{color:#F2EBDD!important;border-color:#485448!important}
+body[data-theme="dark"]:not(.home-page) .app-content .table-panel th{background:#35483B!important;color:#D9B978!important}
+body[data-theme="dark"]:not(.home-page) .app-theme-toggle{background:#B99A5B;color:#202923;border-color:#B99A5B}
+body[data-theme="dark"]:not(.home-page) .app-content .category-pill,
+body[data-theme="dark"]:not(.home-page) .app-content .side-link{background:#35483B!important;color:#F2EBDD!important;border-color:#596657!important}
+body[data-theme="dark"]:not(.home-page) .app-content .kds-column{background:#26332B!important;border-color:#485448!important}
+body[data-theme="dark"]:not(.home-page) .app-content .kds-items p,
+body[data-theme="dark"]:not(.home-page) .app-content .kds-card h4,
+body[data-theme="dark"]:not(.home-page) .app-content .kds-card-top>strong{color:#F2EBDD!important}
+body[data-theme="dark"]:not(.home-page) .app-content .donut:after{background:#2B382F!important}
+body[data-theme="dark"]:not(.home-page) .app-content .app-content a:focus-visible,
+body[data-theme="dark"]:not(.home-page) .app-content button:focus-visible{outline-color:#D9B978}
+@media(max-width:600px){.app-theme-toggle{padding:8px 10px;font-size:0}.app-theme-toggle span:first-child{font-size:16px}.app-topline{align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){.app-theme-toggle,.home-page .rental-card{transition:none!important}}

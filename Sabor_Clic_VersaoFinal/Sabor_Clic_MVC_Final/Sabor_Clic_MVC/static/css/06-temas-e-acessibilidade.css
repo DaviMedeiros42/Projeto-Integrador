@@ -1,0 +1,313 @@
+
+/* O fundo das áreas internas ao creme da identidade visual. */
+body.refined-app-page[data-theme="light"] .app-main,
+body.refined-app-page:not([data-theme="dark"]) .app-main{
+  background:#F2EBDD!important;
+}
+body.refined-app-page[data-theme="light"] .app-shell,
+body.refined-app-page:not([data-theme="dark"]) .app-shell{
+  background:#F2EBDD!important;
+}
+body.refined-app-page .app-content .section-heading h2{color:#26342C!important}
+body.refined-app-page .app-content .section-heading h2 em{color:#A8793D!important}
+body.refined-app-page .app-content .section-heading>p{color:#687168!important}
+body.refined-app-page .app-content .eyebrow{color:#A77F3E!important}
+body.refined-app-page .app-content .panel,
+body.refined-app-page .app-content .stat-card,
+body.refined-app-page .app-content .restaurant-card,
+body.refined-app-page .app-content .equipment-card,
+body.refined-app-page .app-content .form-panel,
+body.refined-app-page .app-content .summary-panel,
+body.refined-app-page .app-content .chart-panel,
+body.refined-app-page .app-content .table-panel{
+  background:#FBF8F1!important;
+  border:1px solid #DCCFB6!important;
+  border-radius:5px!important;
+  box-shadow:0 9px 24px rgba(45,53,43,.065)!important;
+}
+body.refined-app-page .app-content .panel h3,
+body.refined-app-page .app-content .panel h4,
+body.refined-app-page .app-content .restaurant-card h3,
+body.refined-app-page .app-content .equipment-card h3{color:#26342C!important}
+body.refined-app-page .app-content .panel p,
+body.refined-app-page .app-content .restaurant-card p,
+body.refined-app-page .app-content .equipment-card p,
+body.refined-app-page .app-content .muted{color:#687168!important}
+body.refined-app-page .app-content .stat-card{border-top:3px solid #B99A5B!important}
+body.refined-app-page .app-content .stat-card span{color:#687168!important}
+body.refined-app-page .app-content .stat-card strong{color:#245B43!important}
+body.refined-app-page .app-content .stat-card small{color:#777B70!important}
+body.refined-app-page .app-content .form-panel label,
+body.refined-app-page .app-content .field label{color:#35483B!important}
+body.refined-app-page .app-content input,
+body.refined-app-page .app-content textarea,
+body.refined-app-page .app-content select{
+  background:#FFFCF5!important;color:#26342C!important;border:1px solid #D8CBB2!important;
+}
+body.refined-app-page .app-content input::placeholder,
+body.refined-app-page .app-content textarea::placeholder{color:#8A8B80!important;opacity:1}
+body.refined-app-page .app-content .payment-option{
+  background:#F7F1E5!important;border:1px solid #DCCFB6!important;color:#35483B!important;border-radius:4px!important;
+}
+body.refined-app-page .app-content .payment-option span{color:#26342C!important}
+body.refined-app-page .app-content .payment-option small{color:#73776D!important}
+body.refined-app-page .app-content .summary-line{color:#687168!important;border-color:#E2D8C6!important}
+body.refined-app-page .app-content .summary-line b{color:#26342C!important}
+body.refined-app-page .app-content .summary-total{color:#26342C!important}
+body.refined-app-page .app-content .summary-total strong{color:#245B43!important}
+body.refined-app-page .app-content .secure-note{color:#777B70!important}
+body.refined-app-page .app-content .profile-heading{border-color:#DED3BE!important}
+body.refined-app-page .app-content .profile-heading h3{color:#26342C!important}
+body.refined-app-page .app-content .profile-avatar-large{background:#E8E0CE!important;color:#245B43!important;border:1px solid #CDB98F}
+body.refined-app-page .app-content .table-panel th{background:#EEE7D8!important;color:#756548!important}
+body.refined-app-page .app-content .table-panel td{color:#465348!important;border-color:#E6DDCC!important}
+body.refined-app-page .app-content .table-panel td:first-child{color:#26342C!important}
+body.refined-app-page .app-content .select-look{background:#F7F1E5!important;color:#665D4B!important;border:1px solid #DCCFB6!important}
+body.refined-app-page .app-content .restaurant-logo{background:#35483B!important;color:#F2EBDD!important;border:1px solid #B99A5B!important}
+body.refined-app-page .app-content .equipment-icon{background:#E9E0CD!important;color:#806333!important;border:1px solid #D2BD91!important}
+body.refined-app-page .app-content .button-outline{background:#FBF8F1!important;color:#35483B!important;border:1px solid #B99A5B!important}
+body.refined-app-page .app-content .button-primary,
+body.refined-app-page .app-content .button-dark,
+body.refined-app-page .app-content button.button{background:#35483B!important;color:#F2EBDD!important;border:1px solid #B99A5B!important}
+body.refined-app-page .app-content .button-primary:hover,
+body.refined-app-page .app-content .button-dark:hover{background:#B99A5B!important;color:#202923!important}
+body.refined-app-page .app-content .status{border:1px solid rgba(120,105,73,.22)!important}
+
+/* contraste em todo o conteúdo, inclusive textos secundários e dados de gráficos. */
+body.refined-app-page[data-theme="dark"] .app-main,
+body.refined-app-page[data-theme="dark"] .app-shell{background:#202923!important;color:#F2EBDD!important}
+body.refined-app-page[data-theme="dark"] .app-content,
+body.refined-app-page[data-theme="dark"] .app-content section,
+body.refined-app-page[data-theme="dark"] .app-content .section-heading,
+body.refined-app-page[data-theme="dark"] .app-content .section-heading>div{color:#F2EBDD!important}
+body.refined-app-page[data-theme="dark"] .app-topline h1,
+body.refined-app-page[data-theme="dark"] .app-content .section-heading h2,
+body.refined-app-page[data-theme="dark"] .app-content .section-heading h2 em,
+body.refined-app-page[data-theme="dark"] .app-content .panel h3,
+body.refined-app-page[data-theme="dark"] .app-content .panel h4,
+body.refined-app-page[data-theme="dark"] .app-content .restaurant-card h3,
+body.refined-app-page[data-theme="dark"] .app-content .equipment-card h3,
+body.refined-app-page[data-theme="dark"] .app-content .profile-heading h3,
+body.refined-app-page[data-theme="dark"] .app-content .table-panel td,
+body.refined-app-page[data-theme="dark"] .app-content .table-panel td:first-child,
+body.refined-app-page[data-theme="dark"] .app-content .summary-total,
+body.refined-app-page[data-theme="dark"] .app-content .summary-line b,
+body.refined-app-page[data-theme="dark"] .app-content .payment-option span,
+body.refined-app-page[data-theme="dark"] .app-content .form-panel label,
+body.refined-app-page[data-theme="dark"] .app-content .field label,
+body.refined-app-page[data-theme="dark"] .app-content .stat-card strong{color:#F5EEDC!important}
+body.refined-app-page[data-theme="dark"] .app-topline p,
+body.refined-app-page[data-theme="dark"] .app-content .section-heading>p,
+body.refined-app-page[data-theme="dark"] .app-content .panel p,
+body.refined-app-page[data-theme="dark"] .app-content .panel small,
+body.refined-app-page[data-theme="dark"] .app-content .restaurant-card p,
+body.refined-app-page[data-theme="dark"] .app-content .equipment-card p,
+body.refined-app-page[data-theme="dark"] .app-content .stat-card span,
+body.refined-app-page[data-theme="dark"] .app-content .stat-card small,
+body.refined-app-page[data-theme="dark"] .app-content .muted,
+body.refined-app-page[data-theme="dark"] .app-content .secure-note,
+body.refined-app-page[data-theme="dark"] .app-content .payment-option small,
+body.refined-app-page[data-theme="dark"] .app-content .summary-line,
+body.refined-app-page[data-theme="dark"] .app-content .bar-col small,
+body.refined-app-page[data-theme="dark"] .app-content .eyebrow{color:#D8D4C6!important}
+body.refined-app-page[data-theme="dark"] .app-content .panel,
+body.refined-app-page[data-theme="dark"] .app-content .stat-card,
+body.refined-app-page[data-theme="dark"] .app-content .restaurant-card,
+body.refined-app-page[data-theme="dark"] .app-content .equipment-card,
+body.refined-app-page[data-theme="dark"] .app-content .form-panel,
+body.refined-app-page[data-theme="dark"] .app-content .summary-panel,
+body.refined-app-page[data-theme="dark"] .app-content .chart-panel,
+body.refined-app-page[data-theme="dark"] .app-content .table-panel{
+  background:#2B382F!important;color:#F5EEDC!important;border:1px solid #596454!important;
+  box-shadow:0 12px 28px rgba(0,0,0,.22)!important;
+}
+body.refined-app-page[data-theme="dark"] .app-content .section-heading{border-color:#596454!important}
+body.refined-app-page[data-theme="dark"] .app-content .section-heading:after{background:linear-gradient(90deg,#D9B978,#C58C57)!important}
+body.refined-app-page[data-theme="dark"] .app-content input,
+body.refined-app-page[data-theme="dark"] .app-content textarea,
+body.refined-app-page[data-theme="dark"] .app-content select{
+  background:#202923!important;color:#F5EEDC!important;border:1px solid #687260!important;color-scheme:dark;
+}
+body.refined-app-page[data-theme="dark"] .app-content input::placeholder,
+body.refined-app-page[data-theme="dark"] .app-content textarea::placeholder{color:#BDBEAF!important;opacity:1}
+body.refined-app-page[data-theme="dark"] .app-content .payment-option{background:#35483B!important;border-color:#687260!important;color:#F5EEDC!important}
+body.refined-app-page[data-theme="dark"] .app-content .payment-option span{color:#F5EEDC!important}
+body.refined-app-page[data-theme="dark"] .app-content .payment-option small{color:#D8D4C6!important}
+body.refined-app-page[data-theme="dark"] .app-content .summary-line{border-color:#596454!important;color:#D8D4C6!important}
+body.refined-app-page[data-theme="dark"] .app-content .summary-total strong{color:#D9B978!important}
+body.refined-app-page[data-theme="dark"] .app-content .profile-heading{border-color:#596454!important}
+body.refined-app-page[data-theme="dark"] .app-content .profile-avatar-large{background:#35483B!important;color:#F2D79B!important;border-color:#B99A5B!important}
+body.refined-app-page[data-theme="dark"] .app-content .table-panel th{background:#35483B!important;color:#E6CB91!important}
+body.refined-app-page[data-theme="dark"] .app-content .table-panel td{color:#F0EBDD!important;border-color:#596454!important}
+body.refined-app-page[data-theme="dark"] .app-content .table-panel td:first-child{color:#FFF8E8!important}
+body.refined-app-page[data-theme="dark"] .app-content .select-look{background:#35483B!important;color:#F2EBDD!important;border-color:#687260!important}
+body.refined-app-page[data-theme="dark"] .app-content .restaurant-logo{background:#B99A5B!important;color:#202923!important;border-color:#D9B978!important}
+body.refined-app-page[data-theme="dark"] .app-content .equipment-icon{background:#3D4B3F!important;color:#E6CB91!important;border-color:#B99A5B!important}
+body.refined-app-page[data-theme="dark"] .app-content .button-outline{background:transparent!important;color:#E6CB91!important;border-color:#D9B978!important}
+body.refined-app-page[data-theme="dark"] .app-content .button-primary,
+body.refined-app-page[data-theme="dark"] .app-content .button-dark,
+body.refined-app-page[data-theme="dark"] .app-content button.button{background:#B99A5B!important;color:#202923!important;border-color:#D9B978!important}
+body.refined-app-page[data-theme="dark"] .app-content .button-primary:hover,
+body.refined-app-page[data-theme="dark"] .app-content .button-dark:hover{background:#E0C487!important;color:#202923!important}
+body.refined-app-page[data-theme="dark"] .app-content .stat-card{border-top-color:#D9B978!important}
+body.refined-app-page[data-theme="dark"] .app-content .bar-chart{border-color:#687260!important;background:repeating-linear-gradient(to bottom,transparent 0,transparent 35px,rgba(225,225,205,.12) 36px)!important}
+body.refined-app-page[data-theme="dark"] .app-content .bar-col i{background:linear-gradient(180deg,#E6CB91,#A98443)!important}
+body.refined-app-page[data-theme="dark"] .app-content .status{filter:brightness(1.12);border-color:rgba(240,220,170,.25)!important}
+body.refined-app-page[data-theme="dark"] .app-content a:not(.button):not(.app-logo){color:#E6CB91}
+body.refined-app-page[data-theme="dark"] .app-content a.button{color:#202923!important}
+body.refined-app-page[data-theme="dark"] .app-content input:focus,
+body.refined-app-page[data-theme="dark"] .app-content select:focus,
+body.refined-app-page[data-theme="dark"] .app-content textarea:focus{outline-color:#D9B978!important}
+
+/* Ajustes de composição nas páginas  */
+body[data-page="cliente-finalizar"] .checkout-layout{grid-template-columns:minmax(0,1.55fr) minmax(285px,.75fr);gap:25px;align-items:start}
+body[data-page="cliente-finalizar"] .form-panel{padding:30px!important}
+body[data-page="cliente-finalizar"] .summary-panel{padding:28px!important;position:sticky;top:24px}
+body[data-page="cliente-finalizar"] .payment-option{min-height:52px;padding:13px 15px!important}
+body[data-page="cliente-perfil"] .profile-form{max-width:900px!important;padding:30px!important}
+body[data-page="cliente-perfil"] .profile-form .form-grid{column-gap:22px;row-gap:12px}
+body[data-page="empreendedor-pedidos"] .table-panel{padding-top:24px!important}
+body[data-page="empreendedor-pedidos"] .table-panel .panel-title{padding:0 25px!important}
+body[data-page="empreendedor-pedidos"] .table-scroll{padding:0 4px 4px}
+body[data-page="empreendedor-estabelecimento"] .form-panel{max-width:980px;padding:30px!important}
+body[data-page="empreendedor-estabelecimento"] .form-panel .form-grid{gap:14px 20px}
+body[data-page="admin-cozinhas"] .restaurant-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+body[data-page="admin-cozinhas"] .restaurant-card{display:flex;align-items:center;gap:18px;padding:25px!important;min-height:150px}
+body[data-page="admin-cozinhas"] .restaurant-card>div{min-width:0}
+body[data-page="admin-cozinhas"] .restaurant-card h3{font:600 20px/1.25 'Playfair Display',Georgia,serif!important}
+body[data-page="admin-relatorios"] .stats-grid{gap:18px;margin-bottom:24px}
+body[data-page="admin-relatorios"] .chart-panel{padding:28px!important;min-height:310px}
+body[data-page="admin-relatorios"] .bar-chart{height:180px;margin-top:22px}
+body[data-page="admin-configuracoes"] .form-panel{max-width:1000px;padding:30px!important}
+body[data-page="admin-configuracoes"] .form-panel .form-grid{gap:15px 22px}
+body[data-page="admin-configuracoes"] .form-panel .button{margin-top:20px}
+
+/* Grafismos de marca mais presentes. */
+.refined-app-page .app-main{position:relative;isolation:isolate;overflow:hidden}
+.refined-app-page .app-main:before{
+  content:"";position:absolute;z-index:0;pointer-events:none;top:105px;right:-92px;
+  width:250px;height:250px;border:2px solid rgba(185,154,91,.36);border-radius:50%;
+  box-shadow:0 0 0 14px rgba(185,154,91,.12),0 0 0 30px rgba(185,154,91,.075),0 0 0 48px rgba(185,154,91,.045);
+}
+.refined-app-page .app-main:after{
+  content:"";position:absolute;z-index:0;pointer-events:none;left:22px;bottom:30px;
+  width:120px;height:120px;border-radius:50%;
+  background:radial-gradient(circle,rgba(185,154,91,.55) 1.4px,transparent 2px);background-size:13px 13px;
+}
+.refined-app-page .app-topline,.refined-app-page .app-content{position:relative;z-index:1}
+.refined-app-page .app-content .section-heading{position:relative}
+.refined-app-page .app-content .section-heading:before{
+  content:"✳";position:absolute;right:4px;top:-15px;color:rgba(169,128,62,.55);font:400 28px/1 Georgia,serif;pointer-events:none;
+}
+.refined-app-page[data-theme="dark"] .app-main:before{
+  border-color:rgba(217,185,120,.62);box-shadow:0 0 0 14px rgba(217,185,120,.17),0 0 0 30px rgba(217,185,120,.11),0 0 0 48px rgba(217,185,120,.07);
+}
+.refined-app-page[data-theme="dark"] .app-main:after{
+  background:radial-gradient(circle,rgba(217,185,120,.75) 1.5px,transparent 2px);background-size:13px 13px;
+}
+.refined-app-page[data-theme="dark"] .app-content .section-heading:before{color:rgba(217,185,120,.8)}
+@media(max-width:900px){
+ body[data-page="admin-cozinhas"] .restaurant-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body[data-page="cliente-finalizar"] .checkout-layout{grid-template-columns:1fr}
+ body[data-page="cliente-finalizar"] .summary-panel{position:static}
+}
+@media(max-width:620px){
+ body[data-page="admin-cozinhas"] .restaurant-grid{grid-template-columns:1fr}
+ body[data-page="cliente-perfil"] .profile-form,
+ body[data-page="empreendedor-estabelecimento"] .form-panel,
+ body[data-page="admin-configuracoes"] .form-panel,
+ body[data-page="cliente-finalizar"] .form-panel{padding:20px!important}
+ .refined-app-page .app-main:before{width:160px;height:160px;right:-90px;opacity:.7}
+ .refined-app-page .app-main:after{width:75px;height:75px;left:6px;opacity:.7}
+}
+
+
+
+body.refined-app-page[data-theme="dark"] .app-main,
+body.refined-app-page[data-theme="dark"] .app-main .app-content,
+body.refined-app-page[data-theme="dark"] .app-main .app-content section {
+  color: #F0EBDD !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content :is(
+  h1,h2,h3,h4,h5,h6,p,span,strong,b,small,label,legend,li,
+  td,th,dt,dd,figcaption,summary,caption,output
+) {
+  color: #F0EBDD !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content :is(
+  .muted,.description,.subtitle,.helper-text,.form-subtitle,
+  .secure-note,.positive,.negative,.text-muted,.text-secondary,
+  .empty-state,.hint,.field small,.field p,.panel-title p,
+  .panel-title small,.bar-col small,.stat-card span,.stat-card small
+) {
+  color: #D8D8CB !important;
+  opacity: 1 !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content :is(
+  .section-heading h2,.panel-title h3,.panel-title h4,
+  .stat-card strong,.summary-total,.profile-heading h3,
+  .restaurant-card h3,.equipment-card h3
+) {
+  color: #FFF7E8 !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content :is(
+  .eyebrow,.section-heading h2 em,a:not(.button):not(.app-logo),
+  .highlight,.accent,.price,.summary-total strong
+) {
+  color: #E6CB91 !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content :is(
+  input,textarea,select,option
+) {
+  color: #FFF7E8 !important;
+  background-color: #202923 !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content :is(
+  input,textarea
+)::placeholder {
+  color: #C9CBBE !important;
+  opacity: 1 !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content option {
+  background: #202923 !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content :is(
+  button,.button,[role="button"]
+) {
+  color: #202923 !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content :is(
+  button,.button,[role="button"]
+) :is(span,b,strong,small,svg) {
+  color: inherit !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content .button-outline {
+  color: #F0D89F !important;
+  background: transparent !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content .button-outline :is(span,b,strong,small,svg) {
+  color: inherit !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content :is(
+  .table-panel th,.table-panel td,.select-look,.bar-col,
+  .chart-label,.chart-legend,.status
+) {
+  color: #F0EBDD !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content .table-panel th {
+  background: #35483B !important;
+  color: #F0D89F !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content .status :is(span,b,strong) {
+  color: inherit !important;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content svg {
+  color: #E6CB91;
+}
+body.refined-app-page[data-theme="dark"] .app-main .app-content svg :is(path,line,polyline,polygon,circle,rect) {
+  stroke: currentColor;
+}
+
+.login-art p {
+  color: #B9D7B4;
+}
