@@ -1,0 +1,9 @@
+ATUALIZAÇÃO DO VISUAL HTML/CSS
+
+Foram substituídos os templates HTML pelos arquivos do pacote mais recente enviado e instalados os seis arquivos CSS organizados em static/css, além dos assets visuais.
+
+Foram preservados app.py, controllers, models, services, middleware, configurações e banco de dados.
+
+Integrações ligadas nesta atualização: login/cadastro, cardápio/carrinho/pedidos, solicitação de reserva e listagem/cadastro de produtos.
+
+Mantenha seu arquivo .env e seu ambiente virtual local. Não execute novamente scripts SQL de criação/inserção.

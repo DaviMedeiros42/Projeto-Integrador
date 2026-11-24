@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head>
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Sabor &amp; Clic — plataforma visual para cardápios digitais, pedidos e gestão de cozinhas." name="description"/>
+<title>Sabor &amp; Clic | Seu sabor favorito, um clique</title>
+
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+
+<link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+</head><body class="home-page"><header class="topbar"><a class="brand brand-lockup" href="index.html" aria-label="Sabor &amp; Clic - início"><span class="brand-symbol"><img src="{{ url_for('static', filename='assets/logo-principal.png') }}" alt=""/></span><span class="brand-divider" aria-hidden="true"></span><span class="brand-wordmark"><span class="brand-line">Sabor</span><span class="brand-line"><span class="brand-amp">&amp;</span> Clic</span><span class="brand-tagline">Tecnologia que conecta sabores</span></span></a><nav class="main-nav"><a href="#inicio">Início</a><a href="#explorar">Explorar sabores</a><a href="#espacos">Alugar espaço</a><a href="#acesso">Acessar</a></nav><div class="header-actions"><input class="theme-checkbox" type="checkbox" id="theme-switch" aria-label="Ativar modo escuro"/><label class="theme-toggle" for="theme-switch"><span class="theme-icon">☾</span><span class="theme-label">Modo escuro</span></label><a class="button button-outline button-small" href="#acesso">Entrar</a></div></header><main id="conteudo"><section class="hero section-wrap" id="inicio">
+<div class="hero-copy">
+<span class="eyebrow"><span class="eyebrow-dot"></span> GASTRONOMIA COM ORGANIZAÇÃO</span>
+<h1>Seu sabor favorito,<br/><em>a um clique.</em></h1>
+<p>Uma experiência prática para descobrir pratos, acompanhar pedidos e conectar clientes, empreendedores e equipes de cozinha.</p>
+<div class="hero-actions">
+<a class="button button-primary" href="cliente/index.html">Explorar cardápio <span>↗</span></a>
+<a class="button button-light" href="#acesso">Conhecer a plataforma</a>
+</div>
+<div class="hero-note"><span class="avatar-stack"><i>🍅</i><i>🥑</i><i>🍋</i></span><span><strong>Uma plataforma, vários sabores.</strong><br/>Do pedido à preparação.</span></div>
+</div>
+<div class="hero-visual"><img class="brand-decor brand-decor-cloche" src="" alt="" aria-hidden="true"/>
+<div class="hero-image hero-image-featured">
+<img alt="Bowl colorido com ingredientes frescos" src="{{ url_for('static', filename='assets/imagemprincipalversaoescura.jpeg') }}"/>
+</div>
+<div class="floating-card floating-rating"><span class="rating-star">★</span><div><strong>4,9/5</strong><small>Experiência dos clientes</small></div></div>
+<div class="floating-card floating-delivery"><span class="delivery-icon">✓</span><div><strong>Pedido acompanhado</strong><small>Da cozinha até você</small></div></div>
+<div class="hero-sticker">feito com<br/><b>carinho</b> ♡</div>
+</div>
+</section>
+<section class="market-section section-wrap" id="explorar">
+  <div class="section-heading">
+    <div><span class="eyebrow">UM MERCADO DE POSSIBILIDADES</span><h2>Explore novos <em>sabores</em></h2></div>
+    <p>Descubra pratos preparados por quem transforma criatividade em comida boa.</p>
+  </div>
+  <div class="market-toolbar">
+    <div><span class="market-kicker">CURADORIA SABOR &amp; CLIC</span><h3>Sabores do Chef</h3></div>
+    <a class="text-link" href="cliente/index.html#cliente-pratos">Ver cardápio completo ↗</a>
+  </div>
+  <div class="market-food-grid">
+    <article class="market-food-card">
+      <img src="{{ url_for('static', filename='assets/imghamburguer.jpeg') }}" alt="Hambúrguer artesanal com acompanhamentos"/>
+      <div><span class="food-category">DA COZINHA DO CHEF</span><h3>Hambúrguer da casa</h3><p>Uma combinação artesanal, feita para valorizar cada ingrediente.</p><a href="cliente/index.html#cliente-pratos">Conhecer prato ↗</a></div>
+    </article>
+    <article class="market-food-card">
+      <img src="{{ url_for('static', filename='assets/imgmassacmervas.jpeg') }}" alt="Massa artesanal com ervas"/>
+      <div><span class="food-category">FEITO NA HORA</span><h3>Massa com ervas frescas</h3><p>Receita acolhedora com preparo cuidadoso e ingredientes selecionados.</p><a href="cliente/index.html#cliente-pratos">Conhecer prato ↗</a></div>
+    </article>
+    <article class="market-food-card">
+      <img src="{{ url_for('static', filename='assets/imagem1pag_principal.jpeg') }}" alt="Bowl colorido com vegetais frescos"/>
+      <div><span class="food-category">ESCOLHA LEVE</span><h3>Bowl de ingredientes frescos</h3><p>Uma opção colorida para quem gosta de variedade no prato.</p><a class="chef-card-button" href="cliente/index.html#cliente-pratos">Conhecer prato <span aria-hidden="true">↗</span></a></div>
+    </article>
+    <article class="market-food-card">
+      <img src="{{ url_for('static', filename='assets/imgpizzacaseira.jpeg') }}" alt="Pizza artesanal recém-assada" loading="lazy"/>
+      <div><span class="food-category">RECEITA DA CASA</span><h3>Pizza artesanal</h3><p>Massa leve, molho preparado na casa e ingredientes selecionados.</p><a class="chef-card-button" href="cliente/index.html#cliente-pratos">Conhecer prato <span aria-hidden="true">↗</span></a></div>
+    </article>
+    <article class="market-food-card">
+      <img src="{{ url_for('static', filename='assets/imgexecutivodahorta.jpeg') }}" alt="Prato fresco com vegetais e grãos" loading="lazy"/>
+      <div><span class="food-category">FRESCO E EQUILIBRADO</span><h3>Prato colorido do chef</h3><p>Uma combinação de vegetais, grãos e temperos para uma refeição leve.</p><a class="chef-card-button" href="cliente/index.html#cliente-pratos">Conhecer prato <span aria-hidden="true">↗</span></a></div>
+    </article>
+    <article class="market-food-card">
+      <img src="{{ url_for('static', filename='assets/pizzacaseira1.jpeg') }}" alt="Pizza especial com ingredientes frescos" loading="lazy"/>
+      <div><span class="food-category">ESPECIAL DO CHEF</span><h3>Pizza especial da casa</h3><p>Uma receita generosa, com sabores marcantes e finalização artesanal.</p><a class="chef-card-button" href="cliente/index.html#cliente-pratos">Conhecer prato <span aria-hidden="true">↗</span></a></div>
+    </article>
+  </div>
+</section>
+<section class="rental-section" id="espacos">
+  <div class="section-wrap">
+    <div class="section-heading">
+      <div><span class="eyebrow">ESTRUTURA PARA CRIAR</span><h2>Seu próximo sabor começa em uma <em>bancada.</em></h2></div>
+      <p>Encontre cozinhas, bancadas e equipamentos para tirar suas ideias do papel.</p>
+    </div>
+    <div class="rental-grid">
+      <article class="rental-card rental-featured"><div class="rental-photo"><img src="{{ url_for('static', filename='assets/bancada1.jpeg') }}" alt="Cozinha profissional equipada"/></div><div class="rental-content"><span class="food-category">ESPAÇO COMPARTILHADO</span><h3>Cozinhas equipadas</h3><p>Estrutura profissional para organizar sua produção gastronômica.</p><a class="button button-primary" href="cliente/alugueis.html#opcoes">Explorar espaços ↗</a></div></article>
+      <article class="rental-card"><div class="rental-photo"><img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Bancada de preparo em cozinha"/></div><div class="rental-content"><span class="food-category">PARA SUA PRODUÇÃO</span><h3>Bancadas de preparo</h3><p>Opções para preparar, organizar e ampliar sua operação.</p><a class="text-link" href="cliente/alugueis.html#opcoes">Ver disponibilidade ↗</a></div></article>
+      <article class="rental-card"><div class="rental-photo"><img src="{{ url_for('static', filename='assets/bancada3.jpeg') }}" alt="Equipamentos de cozinha profissional"/></div><div class="rental-content"><span class="food-category">EQUIPAMENTOS</span><h3>Equipamentos por período</h3><p>Consulte os recursos disponíveis para cada necessidade.</p><a class="text-link" href="cliente/alugueis.html#opcoes">Consultar opções ↗</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section-wrap access-section" id="acesso">
+<div class="section-heading">
+<div><span class="eyebrow">ÁREA DE ACESSO</span><h2>Escolha seu <em>perfil</em></h2></div>
+<p>Entre na área correspondente à sua função na plataforma.</p>
+</div>
+<div class="profile-grid" id="perfis">
+<a class="profile-card" href="cliente/index.html"><span class="profile-icon peach"><svg viewBox="0 0 24 24" aria-hidden="true" ><path d="M3 10 12 3l9 7v10a1 1 0 0 1-1 1h-6v-7h-4v7H4a1 1 0 0 1-1-1z"/></svg></span><h3>Cliente</h3><p>Explore o cardápio, monte seu carrinho e acompanhe seus pedidos.</p><span class="profile-link">Acessar área <b>↗</b></span></a>
+<a class="profile-card" href="empreendedor/index.html"><span class="profile-icon green"><svg viewBox="0 0 24 24" aria-hidden="true" ><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.4L22 8H6"/></svg></span><h3>Empreendedor</h3><p>Gerencie pratos, pedidos, clientes e resultados do negócio.</p><span class="profile-link">Acessar área <b>↗</b></span></a>
+<a class="profile-card" href="cozinheiro/index.html"><span class="profile-icon yellow"><svg viewBox="0 0 24 24" aria-hidden="true" ><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Cozinheiro</h3><p>Visualize a fila de produção e organize o preparo dos pedidos.</p><span class="profile-link">Acessar área <b>↗</b></span></a>
+<a class="profile-card" href="administrador/index.html"><span class="profile-icon lilac"><svg viewBox="0 0 24 24" aria-hidden="true" ><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM4 21a8 8 0 0 1 16 0"/></svg></span><h3>Administrador</h3><p>Administre o catálogo, os usuários e os espaços gastronômicos.</p><span class="profile-link">Acessar área <b>↗</b></span></a>
+</div>
+<div class="login-preview">
+<div class="login-art"><span class="login-art-tag">SABOR &amp; CLIC</span><div class="login-food">🥗</div><p>Boas experiências<br/>começam à mesa.</p></div>
+<form class="login-form" id="login-form">
+<span class="eyebrow">BEM-VINDO(A) DE VOLTA</span><h3>Entre na sua conta</h3><p class="muted">Acesse sua área para continuar.</p>
+<label for="login-type">Perfil</label><select id="login-type" required><option value="cliente">Cliente</option><option value="administrador">Administrador</option><option value="cozinheiro">Cozinheiro</option></select><label for="login-email">E-mail</label><input id="login-email" placeholder="seuemail@exemplo.com" type="email"/>
+<label for="login-password">Senha</label><input id="login-password" placeholder="Digite sua senha" type="password"/>
+<div class="form-between"><label class="check-label"><input type="checkbox"/> Manter conectado</label><a href="#acesso">Esqueceu a senha?</a></div>
+<button class="button button-primary button-full" type="submit">Entrar</button>
+<p class="form-foot">Ainda não tem conta? <a href="#acesso" id="link-cadastro">Criar conta</a></p>
+</form>
+</div>
+</section></main><footer class="site-footer professional-footer">
+ <div class="footer-brand"><span class="footer-logo">Sabor <i>&amp;</i> Clic</span><p>Tecnologia que conecta sabores.</p><small>Uma plataforma, vários sabores.</small></div>
+ <div class="footer-column"><strong>Explore</strong><a href="#inicio">Início</a><a href="#explorar">Cardápio e sabores</a><a href="#espacos">Alugar espaços</a></div>
+ <div class="footer-column"><strong>Plataforma</strong><a href="#acesso">Área do cliente</a><a href="#acesso">Empreendedores</a><a href="#acesso">Cozinha e administração</a></div>
+ <div class="footer-column footer-contact"><strong>Fale com a gente</strong><a href="mailto:contato@saboreclic.com.br">contato@saboreclic.com.br</a><a href="tel:+551130004520">(11) 3000-4520</a><span>São Paulo — SP</span></div>
+ <div class="footer-bottom"><span>© 2026 Sabor &amp; Clic. Todos os direitos reservados.</span><span>Feito para aproximar pessoas e gastronomia.</span></div>
+</footer><script src="{{ url_for('static', filename='assets/theme.js') }}" defer></script><script src="{{ url_for('static', filename='assets/theme.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/integracao.js') }}" defer></script>
+</body></html>

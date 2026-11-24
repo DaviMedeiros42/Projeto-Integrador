@@ -1,0 +1,7 @@
+/* Sabor & Clic — entrada principal dos estilos. */
+@import url("css/01-base-e-componentes.css");
+@import url("css/02-layout-e-temas.css");
+@import url("css/03-identidade-e-pagina-inicial.css");
+@import url("css/04-ajustes-das-paginas.css");
+@import url("css/05-cards-e-elementos-graficos.css");
+@import url("css/06-temas-e-acessibilidade.css");
